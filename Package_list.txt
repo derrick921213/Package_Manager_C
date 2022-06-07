@@ -1,0 +1,5 @@
+dnf install json-c-devel libcurl-devel
+
+gcc Download.c -lcurl
+
+gcc Json.c -ljson-c
